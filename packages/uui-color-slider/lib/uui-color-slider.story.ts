@@ -53,21 +53,7 @@ export const Disabled: Story = {
   parameters: {
     docs: {
       source: {
-        code: `<uui-color-slider label="Slider label" disabled></uui-color-slider>`,
-      },
-    },
-  },
-};
-
-export const Readonly: Story = {
-  args: {
-    readonly: true,
-    value: 50,
-  },
-  parameters: {
-    docs: {
-      source: {
-        code: `<uui-color-slider label="Slider label" readonly></uui-color-slider>`,
+        code: `<uui-color-slider label="Slider label" disabled="true"></uui-color-slider>`,
       },
     },
   },
